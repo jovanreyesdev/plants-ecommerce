@@ -24,7 +24,6 @@
     "typescript": "5.0.2"
   },
   "devDependencies": {
-    "@tailwindcss/jit": "^0.1.10",
     "autoprefixer": "^10.4.14",
     "postcss-cli": "^10.1.0"
   }
