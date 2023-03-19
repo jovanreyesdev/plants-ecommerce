@@ -39,7 +39,12 @@ module.exports = {
     backdropOpacity: ({ theme }) => theme('opacity'),
     backdropSaturate: ({ theme }) => theme('saturate'),
     backdropSepia: ({ theme }) => theme('sepia'),
-    backgroundColor: ({ theme }) => theme('colors'),
+    backgroundColor: ({ theme }) => ({
+      ...theme('colors'),
+      stone: '#3D3D3D',
+      green: '#00CC96',
+      banner: '#F5F8FA',
+    }),
     backgroundImage: {
       none: 'none',
       'gradient-to-t': 'linear-gradient(to top, var(--tw-gradient-stops))',
@@ -93,6 +98,7 @@ module.exports = {
       xl: '0.75rem',
       '2xl': '1rem',
       '3xl': '1.5rem',
+      '4xl': '3rem',
       full: '9999px',
     },
     borderSpacing: ({ theme }) => ({
@@ -140,13 +146,13 @@ module.exports = {
       gray: colors.gray,
       zinc: colors.zinc,
       neutral: colors.neutral,
-      stone: colors.stone,
+      stone: '#3D3D3D',
       red: colors.red,
       orange: colors.orange,
       amber: colors.amber,
       yellow: colors.yellow,
       lime: colors.lime,
-      green: colors.green,
+      green: '#00CC96',
       emerald: colors.emerald,
       teal: colors.teal,
       cyan: colors.cyan,
@@ -612,6 +618,7 @@ module.exports = {
       fit: 'fit-content',
       prose: '65ch',
       ...breakpoints(theme('screens')),
+      customMax: '135px',
     }),
     minHeight: {
       0: '0px',
@@ -819,7 +826,10 @@ module.exports = {
     },
     supports: {},
     data: {},
-    textColor: ({ theme }) => theme('colors'),
+    textColor: ({ theme }) => ({
+      ...theme('colors'),
+      fade: '#666'
+    }),
     textDecorationColor: ({ theme }) => theme('colors'),
     textDecorationThickness: {
       auto: 'auto',
@@ -935,6 +945,8 @@ module.exports = {
       min: 'min-content',
       max: 'max-content',
       fit: 'fit-content',
+      productBox: '266px',
+      seemoreBox: '570px'
     }),
     willChange: {
       auto: 'auto',
