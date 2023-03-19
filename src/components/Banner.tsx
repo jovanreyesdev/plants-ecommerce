@@ -8,7 +8,7 @@ function Banner() {
       <h1 className="mb-2 text-6xl font-bold text-stone">
         LET&apos;S MAKE A
         <br />
-        BETTER <span className="text-green">PLANTS</span>
+        <span className="text-green">GREENER</span> WORLD
       </h1>
       <p className="text-sm text-stone mb-8">
         We are an online plants shop offering a wide range of cheap and trendy plants.

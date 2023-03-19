@@ -12,7 +12,7 @@ function Trends() {
             <button type="button" className="px-5 py-2 bg-stone text-white rounded">See More</button>
           </div>
         </div>
-        <Image src="/seemore/plant_1.png" height={270} width={190} alt="Plant" />
+        <Image src="/seemore/plant_1.png" className="self-end" height={270} width={190} alt="Plant" />
       </div>
       <div className="flex justify-between w-seemoreBox bg-banner">
         <div className="flex flex-col justify-center p-7">
@@ -22,7 +22,7 @@ function Trends() {
             <button type="button" className="px-5 py-2 bg-stone text-white rounded">See More</button>
           </div>
         </div>
-        <Image src="/seemore/plant_2.png" height={270} width={190} alt="Plant" />
+        <Image src="/seemore/plant_2.png" className="self-end" height={270} width={190} alt="Plant" />
       </div>
     </div>
   )

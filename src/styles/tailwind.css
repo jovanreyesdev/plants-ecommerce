@@ -582,6 +582,9 @@ video {
 .justify-between {
   justify-content: space-between;
 }
+.self-end {
+  align-self: flex-end;
+}
 .self-baseline {
   align-self: baseline;
 }
