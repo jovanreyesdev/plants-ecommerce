@@ -1,5 +1,6 @@
 import React from 'react';
 import axios from 'axios';
+import { NextPageContext } from 'next';
 import ProductBox from './ProductBox.tsx';
 import Pagination from '@/components/Pagination.tsx';
 

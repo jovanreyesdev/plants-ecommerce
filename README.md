@@ -1,8 +1,17 @@
-## Plant Store
-The Plant Store is a static e-commerce website designed and developed by Jovan Reyes, which offers a wide variety of plants for purchase.
+Plant Shop Ecommerce Website
+This is a static ecommerce website that sells plants, developed by Jovan Reyes (jovanreyesdev). The website is designed to showcase a variety of plants and allow customers to make purchases online.
 
-With our easy-to-use interface, customers can browse through a vast selection of plants and add them to their cart for purchase. Our checkout system is simple and secure, ensuring that your personal and financial information is kept safe.
+#Technologies Used
+This website was developed using HTML, CSS, JavaScript, React, NextJS and Tailwind. The site is hosted on a static web hosting service and does not require a backend or database.
 
-If you have any questions or concerns regarding our plants or the purchase process, please feel free to contact us at (jovan.reyes.dev@gmail.com).
+#Features
+The website includes the following features:
 
-Thank you for choosing the Plant Store as your go-to destination for all things green!
+A home page that displays featured plants and a brief introduction to the shop
+A products page that displays all available plants for sale
+A shopping cart where customers can add and remove items and view their total cost
+A checkout page where customers can enter their shipping and payment information
+A confirmation page that displays a summary of the order and confirms that the purchase was successful
+
+#Contact Information
+If you have any questions or concerns about this website, please contact Jovan Reyes at jovan.reyes.dev@gmail.com

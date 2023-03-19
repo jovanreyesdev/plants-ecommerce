@@ -11,10 +11,10 @@ function Footer() {
             <Image src="/Logo2.svg" width={100} height={28} alt="Logo" className="mb-7" />
             <div className="font-bold text-md mb-2">Connect with us</div>
             <div className="flex justify-between">
-              <ReactSVG src="/social/Facebook.svg" width={22} height={18} alt="Facebook" />
-              <ReactSVG src="/social/Twitter.svg" width={22} height={18} alt="Twitter" />
-              <ReactSVG src="/social/pinterest.svg" width={22} height={18} alt="Pinterest" />
-              <ReactSVG src="/social/instagram.svg" width={22} height={18} alt="Instagram" />
+              <ReactSVG src="/social/Facebook.svg" width={22} height={18} />
+              <ReactSVG src="/social/Twitter.svg" width={22} height={18} />
+              <ReactSVG src="/social/pinterest.svg" width={22} height={18} />
+              <ReactSVG src="/social/instagram.svg" width={22} height={18} />
             </div>
           </div>
           <div className="flex" style={{ maxWidth: 700 }}>
