@@ -5,9 +5,9 @@ import { ReactSVG } from 'react-svg';
 function Footer() {
   return (
     <footer>
-      <div className="py-24 px-36">
-        <div className="flex justify-between">
-          <div className="mr-28">
+      <div className="py-10 lg:py-24 px-14 lg:px-36">
+        <div className="flex flex-wrap justify-between">
+          <div className="mr-28 mb-14">
             <Image src="/Logo2.svg" width={100} height={28} alt="Logo" className="mb-7" />
             <div className="font-bold text-md mb-2">Connect with us</div>
             <div className="flex justify-between">
@@ -17,27 +17,27 @@ function Footer() {
               <ReactSVG src="/social/instagram.svg" width={22} height={18} />
             </div>
           </div>
-          <div className="flex" style={{ maxWidth: 700 }}>
-            <div className="mr-24" style={{ minWidth: 145 }}>
+          <div className="flex flex-wrap xl:flex-nowrap" style={{ maxWidth: 700 }}>
+            <div className="mr-24 mb-14" style={{ minWidth: 145 }}>
               <div className="font-bold text-md mb-5 w-full">My Account</div>
               <div className="text-fade font-sm mb-2">My orders</div>
               <div className="text-fade font-sm mb-2">Account settings</div>
               <div className="text-fade font-sm mb-2">Email preferences</div>
             </div>
-            <div className="mr-24" style={{ minWidth: 145 }}>
+            <div className="mr-24 mb-14" style={{ minWidth: 145 }}>
               <div className="font-bold text-md mb-5 w-full">My Account</div>
               <div className="text-fade font-sm mb-2">Our story</div>
               <div className="text-fade font-sm mb-2">Story finder</div>
               <div className="text-fade font-sm mb-2">Careers</div>
             </div>
-            <div className="mr-24" style={{ minWidth: 145 }}>
+            <div className="mr-24 mb-14" style={{ minWidth: 145 }}>
               <div className="font-bold text-md mb-5 w-full">Customer service</div>
               <div className="text-fade font-sm mb-2">Help centre</div>
               <div className="text-fade font-sm mb-2">Delivery</div>
               <div className="text-fade font-sm mb-2">Returns & Refunds</div>
               <div className="text-fade font-sm mb-2">Contact us</div>
             </div>
-            <div className="mr-24" style={{ minWidth: 145 }}>
+            <div className="mr-24 mb-14" style={{ minWidth: 145 }}>
               <div className="font-bold text-md mb-5 w-full">Newsletter</div>
               <div className="text-fade font-sm mb-2">Subscribe now!</div>
             </div>

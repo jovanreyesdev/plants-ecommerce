@@ -67,6 +67,7 @@ module.exports = {
       'right-bottom': 'right bottom',
       'right-top': 'right top',
       top: 'top',
+      'sm-banner': '23%'
     },
     backgroundSize: {
       auto: 'auto',
@@ -619,6 +620,7 @@ module.exports = {
       prose: '65ch',
       ...breakpoints(theme('screens')),
       customMax: '135px',
+      customerReviewCard: '350px'
     }),
     minHeight: {
       0: '0px',

@@ -3,7 +3,7 @@ import { ReactSVG } from 'react-svg'
 
 function FilterBox() {
   return (
-    <div className="p-5 bg-banner" style={{ minWidth: 280 }}>
+    <div className="p-5 hidden lg:block bg-banner" style={{ minWidth: 280 }}>
       <span className="font-bold">Shop by Departments</span>
       <ul className="mt-5 mb-5">
         <li className="py-1 px-2 font-bold shadow-md mb-2">Trees</li>

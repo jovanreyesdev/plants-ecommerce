@@ -114,7 +114,7 @@ function Products(props) {
   ];
 
   return (
-    <div className="ml-8 flex-1">
+    <div className="ml-8 px-5 lg:px-0 flex-1">
       <div className="">
         <div className="flex justify-between mb-10">
           <div>
@@ -125,7 +125,7 @@ function Products(props) {
           <div>Sort by</div>
         </div>
       </div>
-      <div className="flex flex-wrap">
+      <div className="flex flex-wrap justify-center">
         {
           products.map((item) => (
             <ProductBox key={item.id} {...item} />
