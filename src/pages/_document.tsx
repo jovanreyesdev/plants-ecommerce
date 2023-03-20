@@ -6,9 +6,9 @@ export default function Document() {
       <Head>
         <meta name="description" content="Discover the Plant Store, your ultimate destination for purchasing high-quality plants. Browse our extensive selection and enjoy a secure checkout process. Contact us at jovan.reyes.dev@gmail.com for any questions or concerns." />
 
-        <meta itemprop="name" content="Plant Store" />
-        <meta itemprop="description" content="Discover the Plant Store, your ultimate destination for purchasing high-quality plants. Browse our extensive selection and enjoy a secure checkout process. Contact us at jovan.reyes.dev@gmail.com for any questions or concerns." />
-        <meta itemprop="image" content="/thumbnail.jpg" />
+        <meta itemProp="name" content="Plant Store" />
+        <meta itemProp="description" content="Discover the Plant Store, your ultimate destination for purchasing high-quality plants. Browse our extensive selection and enjoy a secure checkout process. Contact us at jovan.reyes.dev@gmail.com for any questions or concerns." />
+        <meta itemProp="image" content="/thumbnail.jpg" />
 
         <meta property="og:url" content="https://jovanreyesdev.netlify.app" />
         <meta property="og:type" content="website" />
