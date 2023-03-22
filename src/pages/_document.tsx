@@ -21,7 +21,7 @@ export default function Document() {
         <meta name="twitter:description" content="Discover the Plant Store, your ultimate destination for purchasing high-quality plants. Browse our extensive selection and enjoy a secure checkout process. Contact us at jovan.reyes.dev@gmail.com for any questions or concerns." />
         <meta name="twitter:image" content="/thumbnail.jpg" />
       </Head>
-      <body className="font-sans">
+      <body className="font-sans bg-white">
         <Main />
         <NextScript />
       </body>

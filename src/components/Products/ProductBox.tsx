@@ -23,7 +23,7 @@ function ProductBox({
   isSale
 }: Product) {
   return (
-    <div className="w-productBox m-7 relative bg-banner">
+    <div className="w-productBox m-2 relative bg-banner scale-90 md:scale-100">
       <div className="absolute flex">
         <div className="inset-x-0 top-0">
           {

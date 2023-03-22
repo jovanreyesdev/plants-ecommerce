@@ -114,18 +114,18 @@ function Products(props) {
   ];
 
   return (
-    <div className="ml-8 px-5 lg:px-0 flex-1">
+    <div className="ml:0 lg:ml-8 px:0 lg:px-5 lg:px-0 flex-1">
       <div className="">
-        <div className="flex justify-between mb-10">
+        <div className="flex justify-center lg:justify-between mb-10">
           <div>
             <span className="pb-2 font-medium mr-3">All Products</span>
             <span className="pb-2 font-medium mr-3">New Arrivals</span>
             <span className="pb-2 font-medium mr-3">Sale</span>
           </div>
-          <div>Sort by</div>
+          <div className="hidden lg:block">Sort by</div>
         </div>
       </div>
-      <div className="flex flex-wrap justify-center">
+      <div className="flex flex-wrap justify-center xl:justify-between">
         {
           products.map((item) => (
             <ProductBox key={item.id} {...item} />
