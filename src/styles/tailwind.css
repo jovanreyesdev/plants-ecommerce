@@ -481,9 +481,6 @@ video {
 .top-0 {
   top: 0px;
 }
-.m-7 {
-  margin: 1.75rem;
-}
 .m-2 {
   margin: 0.5rem;
 }
@@ -525,9 +522,6 @@ video {
 }
 .ml-14 {
   margin-left: 3.5rem;
-}
-.ml-8 {
-  margin-left: 2rem;
 }
 .mr-1 {
   margin-right: 0.25rem;
@@ -797,6 +791,10 @@ video {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
+.text-black {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
+}
 .line-through {
   text-decoration-line: line-through;
 }
@@ -815,33 +813,14 @@ video {
 }
 @media (min-width: 768px) {
 
-  .md\:m-7 {
-    margin: 1.75rem;
-  }
-
   .md\:block {
     display: block;
-  }
-
-  .md\:scale-0 {
-    --tw-scale-x: 0;
-    --tw-scale-y: 0;
-    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
   }
 
   .md\:scale-100 {
     --tw-scale-x: 1;
     --tw-scale-y: 1;
     transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-  }
-
-  .md\:justify-between {
-    justify-content: space-between;
-  }
-
-  .md\:px-5 {
-    padding-left: 1.25rem;
-    padding-right: 1.25rem;
   }
 }
 @media (min-width: 1024px) {
@@ -892,14 +871,14 @@ video {
     padding-right: 9rem;
   }
 
-  .lg\:py-24 {
-    padding-top: 6rem;
-    padding-bottom: 6rem;
-  }
-
   .lg\:px-5 {
     padding-left: 1.25rem;
     padding-right: 1.25rem;
+  }
+
+  .lg\:py-24 {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
   }
 
   .lg\:pb-14 {
